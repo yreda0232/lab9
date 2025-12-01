@@ -60,7 +60,6 @@ public class SudokuIo {
     int mode = 0;
 
     if (args.length == 2) {
-        // تم تشغيل البرنامج من CMD مع arguments
         csvPath = args[0];
         try {
             mode = Integer.parseInt(args[1]);
@@ -73,7 +72,6 @@ public class SudokuIo {
             return;
         }
     } else {
-        // تشغيل البرنامج من NetBeans بدون arguments
         java.util.Scanner sc = new java.util.Scanner(System.in);
         System.out.print("Enter CSV file path: ");
         csvPath = "C:\\Users\\ADMIN\\Documents\\GitHub\\lab9\\valid_sudoku.csv";
@@ -93,7 +91,6 @@ public class SudokuIo {
         sc.close();
     }
 
-    // قراءة ملف CSV
     int[][] board;
     try {
         board = SudokuIo.readCsv(csvPath);
