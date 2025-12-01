@@ -1,0 +1,322 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1163" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-259" value="SudokuIo::main()" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="39" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-260" value="Factory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="293" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-323" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-260">
+          <mxGeometry x="70" y="270" width="10" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-261" value="Mode27Validator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="634" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-325" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-261">
+          <mxGeometry x="70" y="1100" width="10" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-262" value="RowChecker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="854" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-263" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-262">
+          <mxGeometry x="70" y="1307" width="10" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-264" value="ColChecker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-265" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-264">
+          <mxGeometry x="70" y="1518" width="10" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-266" value="BoxChecker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-267" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-266">
+          <mxGeometry x="70" y="1729" width="10" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-268" value="Collection&lt;Violation&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1502" y="20" width="175" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-269" value="Thread" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="20" width="150" height="2608" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-270" value="loop" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="357" y="300" width="1456" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-271" value="[r = 0 to 8]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-270">
+          <mxGeometry x="40" width="1416" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-272" value="loop" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="357" y="564" width="1456" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-273" value="[c = 0 to 8]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-272">
+          <mxGeometry x="40" width="1416" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-274" value="loop" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="357" y="828" width="1456" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-275" value="[b = 0 to 8]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-274">
+          <mxGeometry x="40" width="1416" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-276" value="loop" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="698" y="1141" width="1115" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-277" value="[for each thread(27)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-276">
+          <mxGeometry x="40" width="1075" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-278" value="par" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1249" width="1094" height="654" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-279" value="[Thread Execution (27 threads running concurrently)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-278">
+          <mxGeometry x="33.59263050153531" width="1060.4073694984647" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-280" value="" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-278">
+          <mxGeometry y="237" width="1094" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-281" value="" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-278">
+          <mxGeometry y="448" width="1094" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-282" value="loop" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="698" y="1962" width="1115" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-283" value="[for each thread]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-282">
+          <mxGeometry x="40" width="1075" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-284" value="alt" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="19" y="2226" width="190" height="307" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-285" value="[violations is&#xa;empty]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-284">
+          <mxGeometry x="21" y="24" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-286" value="[violations found]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="C0sqt4IiPQ0FS___AkDo-284">
+          <mxGeometry y="154" width="190" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-287" value="getMode(3)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-259" target="C0sqt4IiPQ0FS___AkDo-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-288" value="Mode27Validator instance" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-259">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="253" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-289" value="execute(board, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-259" target="C0sqt4IiPQ0FS___AkDo-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-290" value="getChecker(&quot;row&quot;, r, board, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-291" value="new RowChecker(board, r, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-262">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="657" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-292" value="RowChecker instance" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="482" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-293" value="new Thread(RowChecker)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-269">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="534" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-294" value="getChecker(&quot;col&quot;, c, board, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="642" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-295" value="new ColChecker(board, c, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-264">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="757" y="694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-296" value="ColChecker instance" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="746" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-297" value="new Thread(ColChecker)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-269">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-298" value="getChecker(&quot;box&quot;, b, board, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="906" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-299" value="new BoxChecker(board, b, violations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-266">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="958" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-300" value="BoxChecker instance" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-260" target="C0sqt4IiPQ0FS___AkDo-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-301" value="new Thread(BoxChecker)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-269">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="1062" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-302" value="start()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-269">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="1219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-303" value="run()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-269" target="C0sqt4IiPQ0FS___AkDo-263">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1377" y="1327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-304" value="Check row for duplicates" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-263" target="C0sqt4IiPQ0FS___AkDo-263">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="1379" />
+              <mxPoint x="984" y="1409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-305" value="add(new Violation(ROW, ...))" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-263" target="C0sqt4IiPQ0FS___AkDo-268">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="1461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-306" value="run()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-269" target="C0sqt4IiPQ0FS___AkDo-265">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1477" y="1538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-307" value="Check column for duplicates" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-265" target="C0sqt4IiPQ0FS___AkDo-265">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1184" y="1590" />
+              <mxPoint x="1184" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-308" value="add(new Violation(COL, ...))" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-265" target="C0sqt4IiPQ0FS___AkDo-268">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="1672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-309" value="run()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-269" target="C0sqt4IiPQ0FS___AkDo-267">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1577" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-310" value="Check box for duplicates" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-267" target="C0sqt4IiPQ0FS___AkDo-267">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1384" y="1801" />
+              <mxPoint x="1384" y="1831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-311" value="add(new Violation(BOX, ...))" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-267" target="C0sqt4IiPQ0FS___AkDo-268">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="1883" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-312" value="join()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-269">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-313" value="(completes)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-269" target="C0sqt4IiPQ0FS___AkDo-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1267" y="2092" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-314" value="(execution complete)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-261" target="C0sqt4IiPQ0FS___AkDo-259">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423" y="2154" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-315" value="isEmpty()?" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-259" target="C0sqt4IiPQ0FS___AkDo-268">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="2206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-316" value="Print &quot;VALID SUDOKU&quot;" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-259" target="C0sqt4IiPQ0FS___AkDo-259">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="2325" />
+              <mxPoint x="165" y="2355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0sqt4IiPQ0FS___AkDo-317" value="Sort and print violations" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="C0sqt4IiPQ0FS___AkDo-259" target="C0sqt4IiPQ0FS___AkDo-259">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="2453" />
+              <mxPoint x="165" y="2483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
