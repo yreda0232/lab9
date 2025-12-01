@@ -1,5 +1,7 @@
 package lab9;
 
+import java.util.Collection;
+
 public class Mode0Validator implements ValidatorMode {
 
     public Mode0Validator() {}

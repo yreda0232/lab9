@@ -1,5 +1,7 @@
 package lab9;
 
+import java.util.Collection;
+
 public class Factory {
     public static Checker getChecker(String type, int index, int[][] board, Collection<Violation> out){
         switch(type){
