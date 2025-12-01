@@ -55,22 +55,16 @@ public class SudokuIo {
     }
 
 
-    
     public static void main(String[] args) {
+    String csvPath = null;
+    int mode = 0;
 
-        if (args.length != 2) {
-            System.out.println("Usage: java -jar sudoku.jar <csv-filepath> <mode>");
-            System.out.println("Example: java -jar sudoku.jar C:\\boards\\valid_sudoku.csv");
-            return;
-        }
-
-        String csvPath = args[0];
-        String modeStr = args[1];
-        int mode;
-
+    if (args.length == 2) {
+        // تم تشغيل البرنامج من CMD مع arguments
+        csvPath = args[0];
         try {
-            mode = Integer.parseInt(modeStr);
-            if (mode != 1 && mode != 2 && mode != 3) {
+            mode = Integer.parseInt(args[1]);
+            if (mode < 1 || mode > 3) {
                 System.out.println("Mode must be 1 (Mode0), 2 (Mode3), or 3 (Mode27)");
                 return;
             }
@@ -78,39 +72,58 @@ public class SudokuIo {
             System.out.println("Mode must be an integer: 1, 2, or 3");
             return;
         }
-
-        int[][] board;
+    } else {
+        // تشغيل البرنامج من NetBeans بدون arguments
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        System.out.print("Enter CSV file path: ");
+        csvPath = "C:\\Users\\ADMIN\\Documents\\GitHub\\lab9\\valid_sudoku.csv";
+        System.out.print("Enter mode (1=Mode0, 2=Mode3, 3=Mode27): ");
         try {
-            board = SudokuIo.readCsv(csvPath);
-        } catch (IOException e) {
-            System.out.println("Failed to read CSV: " + e.getMessage());
+            mode = Integer.parseInt(sc.nextLine());
+            if (mode < 1 || mode > 3) {
+                System.out.println("Invalid mode");
+                sc.close();
+                return;
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Mode must be an integer");
+            sc.close();
             return;
         }
-
-        Collection<Violation> violations = new ConcurrentLinkedQueue<>();
-
-        ValidatorMode validator = Factory.getMode(mode);
-        validator.execute(board, violations);
-        if (violations.isEmpty()) {
-            System.out.println("VALID SUDOKU");
-            return;
-        }
-
-        System.out.println("INVALID\n");
-
-        List<Violation> list = new ArrayList<>(violations);
-
-        list.sort(
-                Comparator.comparing((Violation v) -> v.type.toString())
-                        .thenComparingInt(v -> v.index)
-                        .thenComparingInt(v -> v.value)
-        );
-
-        for (Violation v : list) if (v.type == Violation.Type.ROW) System.out.println(v);
-        System.out.println("------------------------------------------");
-        for (Violation v : list) if (v.type == Violation.Type.COL) System.out.println(v);
-        System.out.println("------------------------------------------");
-        for (Violation v : list) if (v.type == Violation.Type.BOX) System.out.println(v);
+        sc.close();
     }
 
+    // قراءة ملف CSV
+    int[][] board;
+    try {
+        board = SudokuIo.readCsv(csvPath);
+    } catch (IOException e) {
+        System.out.println("Failed to read CSV: " + e.getMessage());
+        return;
+    }
+
+    Collection<Violation> violations = new java.util.concurrent.ConcurrentLinkedQueue<>();
+    ValidatorMode validator = Factory.getMode(mode);
+    validator.execute(board, violations);
+
+    if (violations.isEmpty()) {
+        System.out.println("VALID SUDOKU");
+        return;
+    }
+
+    System.out.println("INVALID\n");
+    List<Violation> list = new java.util.ArrayList<>(violations);
+    list.sort(
+            java.util.Comparator.comparing((Violation v) -> v.type.toString())
+                    .thenComparingInt(v -> v.index)
+                    .thenComparingInt(v -> v.value)
+    );
+
+    for (Violation v : list) if (v.type == Violation.Type.ROW) System.out.println(v);
+    System.out.println("------------------------------------------");
+    for (Violation v : list) if (v.type == Violation.Type.COL) System.out.println(v);
+    System.out.println("------------------------------------------");
+    for (Violation v : list) if (v.type == Violation.Type.BOX) System.out.println(v);
+}
+    
 }
